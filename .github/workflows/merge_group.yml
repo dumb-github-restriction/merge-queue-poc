@@ -1,0 +1,8 @@
+name: Stuff
+on: [pull_request, merge_group]
+jobs:
+  chill:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Try to fail
+      run: exit 1
