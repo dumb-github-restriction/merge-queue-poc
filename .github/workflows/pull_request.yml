@@ -1,10 +1,10 @@
 name: Stuff
-on: [pull_request]
+on: [pull_request, merge_group]
 jobs:
   chill:
     runs-on: ubuntu-latest
     steps:
-    - name: Sleep for 600 seconds
+    - name: Sleep for 120 seconds
       uses: jakejarvis/wait-action@master
       with:
-        time: '600s'
+        time: '120s'
