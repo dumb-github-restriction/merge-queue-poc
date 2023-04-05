@@ -1,5 +1,5 @@
 name: Stuff
-on: [pull_request, merge_group]
+on: [merge_group]
 jobs:
   chill:
     runs-on: ubuntu-latest
